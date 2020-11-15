@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <title> view tasks</title>
+    <link rel="stylesheet" href="{% static 'css/task.css' %}">
+ </head>
+<body>
+    <ul>
+        <li id='man'><a href='/'>Home</a></li>
+        <li id='man'><a href="view-task"> View Details </a></li>
+        
+     
+    </ul><br>
+
+       <h1 style='color:black; text-align:center;font-family:calibri;font-size:70px;'> View Detail </h1>
+       <table>
+         <thead>
+           <th> Name</th>
+           <th> Email </th>
+           <th> Phone</th>
+           <th> Date of Birth</th>
+
+         </thead>
+         {% for detail in content %}
+         <tr>
+           <td>{{detail.name}}</td>
+           <td>{{detail.Email}}</td>
+           <td>{{detail.phone}}</td>
+           <td>{{detail.Date_of_Birth}}</td>
+
+         </tr>
+         {% endfor %}
+       </table>
+     </div>
+</body>
+</html>

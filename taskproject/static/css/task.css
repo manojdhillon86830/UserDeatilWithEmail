@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(82, 86, 89);
+    margin: 0px 0px 0px 0px;
+    font-family: "calibri"
+  }
+  #header {
+   text-align:center;
+   font-size:27px;
+  }
+  
+  
+  ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+  }
+  
+  #man {
+    float:left;
+    width:379px;
+    height:40px;
+    background-color:black;
+    opacity:.8;
+    line-height:40px;
+    text-align:center;
+    font-size:20px;
+  }
+  ul li a {
+    text-decoration:none;
+    color:white;
+    display:block;
+  }
+  ul li a:hover {
+    background-color:skyblue;
+  }
+  ul li ul li {
+    display:none;
+      background-color:black;
+  }
+  ul li:hover ul li {
+    display:block;
+  }
+  
