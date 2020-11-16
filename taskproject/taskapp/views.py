@@ -26,7 +26,7 @@ def viewTask(request):
 def Email(request): 
     send_mail(
         'Thank You',
-        'I have received your message and would like to thanku for giving me the details. Have a great day!',
+        'One new user add our details. Have a great day!',
         '21514manojkumar@gmail.com',
         ['manojsingh86830@gmail.com'],
         fail_silently=False,
